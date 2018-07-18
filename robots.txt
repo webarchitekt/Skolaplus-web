@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Disallow: web/img/
+Disallow: web/css/
+Disallow: web/doc/
+Disallow: web/js/
+Disallow: web/index.php/
+
+Sitemap: http://skolaplus.sk/sitemap.xml

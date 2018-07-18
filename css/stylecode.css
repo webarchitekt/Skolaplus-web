@@ -1,0 +1,1472 @@
+/*
+ Theme Name:   Skola Plus Theme
+ Theme URI:    http://ceknima.sk
+ Description:  Skola Plus
+ Author:       Fenomen
+ Author URI:   http:/ceknima.sk
+ Template:     SP
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  ceknima.sk
+*/
+
+.navbar-default {
+    font-family: 'Dosis', sans-serif;
+    background-color: transparent;
+    font-size: 12px;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+    border: none;
+
+}
+
+.navbar-default .container-fluid {
+    /*border: 1px solid green;*/
+    max-width: 1080px;
+}
+
+.navbar-default .navbar-header .navbar-toggle {
+    background-color: white;
+}
+.navbar-default .navbar-toggle {
+    background-color: white;
+}
+
+/*.navbar-toggle .icon-bar {
+    background-color: white;
+}*/
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: whitesmoke;
+    color: white;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
+    /*border-color: 1px solid grey;*/
+    border-radius none;
+}
+
+.navbar-nav h1 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: -10px;
+    /*border: 1px solid red;*/
+    margin-top: 10px;
+}
+
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    color: black;
+    max-height: 90px;
+    margin-top: 0;
+    /*border-bottom: 3px solid black;*/
+}
+
+
+.logo {
+    float: left;
+    max-width: 256px;
+    max-height: 64px;
+    /*border: 1px solid green;*/
+    margin-top: 10px;
+    padding-left: 0;
+
+}
+
+.skola {
+    display: block;
+    background: url('../img/skola-plus-logo.png') 0 0 no-repeat;
+    width: 256px;
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #2081c4;
+}
+
+/* --------------------- TOGGLE X ---------------------------*/
+
+.navbar-toggle {
+    border: none;
+    background: transparent !important;
+}
+.navbar-toggle:hover {
+    background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+    width: 22px;
+    transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+    opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+    transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+    opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
+/*---------------------------------------------------------*/
+@media(min-width:768px) {
+    .navbar-default {
+        /*border-color: yellow;*/
+        background-color: transparent;
+        /*color: darkslategray;*/
+        min-height: 60px;
+    }
+
+    .navbar-default .nav > li > a,
+    .navbar-default .nav > li > a:focus {
+        padding: 20px;
+        letter-spacing: 1.1px;
+    }
+
+    .navbar-default .nav > li > a:hover,
+    .navbar-default .nav > li > a:focus:hover {
+        color: steelblue;
+        background-color: white;
+    }
+
+    .navbar-default .nav > li > .facebook-button:hover {
+        color: steelblue;
+        background-color: transparent;
+    }
+    .navbar-default.affix {
+        border-color: steelblue;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-header .navbar-toggle {
+        background: white;
+    }
+
+}
+
+
+@media(max-width:767px) {
+    .navbar-default  {
+        background-color: white;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-default.affix {
+        border-color: steelblue;
+        background-color: rgba(255, 255, 255, 1);
+        color: black;
+    }
+
+    .logo {
+        margin-left: 5px;
+    }
+
+    .navbar-toggle {
+        margin-right: 5px;
+        margin-top: 23px;
+        background-color: transparent;
+        border: 1px solid black;
+    }
+
+    .navbar-toggle {
+        border: 0px none;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #2081c4;
+        border: 2px;
+    }
+
+    .page-scroll h1 {
+        text-align: center;
+    }
+
+    .facebook-button h1 {
+        text-align: center;
+    }
+
+}
+/*-----------------------------------------------------slider-------------------------------------------*/
+
+
+.carousel {
+    display: block;
+    max-height: 625px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: none;
+}
+
+.carousel-inner .item {
+
+
+    max-height: 625px;
+    border-radius: none;
+
+
+}
+
+/*.left {
+    max-height: 600px;
+}*/
+
+.item img {
+    margin: 0 auto;
+    border-radius: none;
+}
+
+.carousel-inner .carousel-caption h3 {
+    font-size: 20px;
+    float: none;
+    position: relative;
+    top: 50px;
+}
+
+
+@media(max-width:767px) {
+
+    .carousel {
+        margin-top: 75px;
+
+    }
+
+    .carousel-inner .carousel-caption h3 {
+        font-size: 20px;
+        float: none;
+        position: relative;
+        top: 50px;
+    }
+
+    main {
+        border-bottom: none;
+    }
+
+}
+
+@media(max-width:425px) {
+
+    .carousel {
+        margin-top: 75px;
+
+    }
+
+    .carousel-inner .carousel-caption h3 {
+        font-size: 12px;
+        float: none;
+        position: relative;
+        top: 50px;
+    }
+}
+
+
+.carousel-caption h3 {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    color: black;
+    border-radius: 20px;
+    float: right;
+    text-transform: uppercase;
+
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.action-text {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+
+.pre-body {
+    margin-top: 0px;
+    height: 100px;
+    background-color: #2081c4;
+    border: 1px solid #2081c4;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    }
+
+.onas h1 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.main-body {
+    min-height 250px;
+    background-color: #2081c4;
+    border: 1px solid #2081c4;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.main-body p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.main-body p::selection {
+    background: white;
+    color: #2081c4;
+}
+@media(max-width:699px) {
+
+    article p {
+        font-size: 15px;
+    }
+}
+.programy {
+    max-width: 1080px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: darkslategray;
+}
+
+.programy h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: #2081c4;
+}
+
+.first{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.first img {
+    border: 5px solid #2081c4;
+    border-radius: 70px;
+}
+
+.second img {
+    border: 5px solid #2081c4;
+    border-radius: 70px;
+}
+.first > div > div{
+    padding: 10px;
+    /*border: 1px solid #2081c4;*/
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.first > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 1s;
+}
+
+.first h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.first p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2081c4;
+}
+
+.first h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #2081c4;
+    margin-top: 2px;
+}
+
+
+.second{
+    padding: 20px 0;
+    text-align: center;
+}
+.second > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px,
+transition: 0.2s;
+}
+.second > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 1s;
+}
+
+.btn-primary {
+    background-color: white;
+    border-color: #2081c4;
+    color: #2081c4;
+    border-radius: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #2081c4;
+    border-color: #2081c4;
+    transition: 1s;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus,
+.btn-primary.active:hover, .btn-primary:active.focus,
+.btn-primary:active:focus, .btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+    background-color: #2081c4;
+    border-color: #2081c4;
+}
+
+.second h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.second p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: steelblue;
+}
+
+.second h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: steelblue;
+    margin-top: 2px;
+}
+
+/*--------------------------------------modal---------------------------------------------*/
+
+.logotype-top-modal {
+    float: none;
+    text-align: center;
+    max-width: 256px;
+    max-height: 64px;
+    /*border: 1px solid green;*/
+    margin-top: 10px;
+    padding-left: 0;
+}
+.logo-top-modal {
+    display: block;
+    background: url('../img/skola-plus-logo.png') 0 0 no-repeat;
+    width: 256px;
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+}
+.modal-body h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    color: steelblue;
+}
+
+.modal-body h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: black;
+    text-align: left;
+    line-height: 1.5;
+}
+.modal-body .label-primary {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.modal-body .label-danger {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.modal-body h3 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: steelblue;
+}
+
+.modal-body p {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    margin-top: 5px;
+}
+
+.follow{
+    background: steelblue;
+    min-height: 50px;
+}
+
+.follow p {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.follow a {
+    color: white;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+/*--------------------------------------kontakt-------------------------------------------*/
+
+footer {
+    border-top: 2px solid #2081c4;
+    margin-top: 0px;
+    padding-top: 15px;
+    height: 125px;
+    background-color: #EEEEEE;
+    color: #2081c4;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 50px;
+}
+
+/*-----------------------------------kontakt form ------------------------------------------*/
+
+/*.foot-content .well-sm {
+    background-color: grey;
+    font-family: 'Dosis', sans-serif;
+    border-color: grey;
+    outline: grey;
+}
+
+.foot-content .col-md-8 {
+    border: grey;
+    background-color: grey;
+}
+
+.well {
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0);
+}
+
+.form-group label {
+    font-weight: 400;
+}
+
+.foot-content .col-md-6 .form-group {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.foot-content .col-sm-12 .btn-primary {
+    float: right;
+    margin-right: 20px;
+}*/
+.after-submit {
+    min-width: 500px;
+}
+.pop-up {
+    text-align: center;
+}
+/*
+.form-group .text-danger {
+    color: white;
+    background-color: #F03434;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left: 10px;
+
+}
+
+.form-main {
+    background-color: grey;
+}*/
+
+.alert-danger {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #F03434!important;
+    color: darkred!important;
+    border: 2px;
+    border-color: darkred!important;
+    border-radius: 50px!important;
+}
+
+.alert-success {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #38ECA4!important;
+    color: #2C8763!important;
+    border: 2px;
+    border-color: #2C8763!important;
+    border-radius: 50px!important;
+}
+
+/*legend {
+    border-bottom: none;
+}
+
+.contact-adress {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+
+
+}
+
+.name{
+    margin-bottom: 0px;
+}
+
+.email {
+    margin-top: -7px;
+}
+
+address {
+    margin-top: 8px;
+    margin-left: -8px;
+}
+
+
+.contact-adress a {
+    color: silver;
+}
+
+.btn-fb {
+    margin-top: -2px;
+    background-color: #3b5998;
+    color: white;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 50px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-fb:hover,
+.btn-fb:focus {
+    color: white;
+}
+*/
+
+.form-main {
+    background: #EEEEEE;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.input-group-addon {
+    background: #EEEEEE;
+    color: #333333;
+    border: none;
+    text-align: right;
+
+}
+
+.text-center {
+    min-height: 100px;
+}
+
+
+.form-group {
+    margin-bottom: 0px;
+    max-width: 350px;
+}
+
+.input-group .form-control {
+    width: 150%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+
+.form-control {
+    background-color: #ffffff;
+    height: 45px;
+    border: 1px solid #e0e0e0;
+    box-shadow:0px 0px 20px #dddddd;
+}
+
+.input-group .form-control:last-child, .input-group-addon:last-child,
+.input-group-btn:first-child>.btn-group:not(:first-child)>.btn,
+.input-group-btn:first-child>.btn:not(:first-child),
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn,
+.input-group-btn:last-child>.dropdown-toggle {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.frst {
+    padding-left: 51.5px;
+    /*padding-right: 37px;*/
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: right;
+    color: #2081c4;
+
+}
+
+.scnd {
+    padding-left: 12px;
+    /*padding-right: 20px;*/
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #2081c4;
+}
+
+.thrd {
+    padding-left: 43.5px;
+    /*padding-right: 35px;*/
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #2081c4;
+}
+
+.four {
+    padding-left: 40px;
+    vertical-align: top;
+    /*padding-right: 30px;*/
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #2081c4;
+}
+
+.five {
+    padding-left: 28px;
+    padding-right: 28px;
+    font-family: 'Etelka-Text-Pro';
+    font-size: 16px;
+}
+
+textarea {
+    border-color: #ffffff;
+    box-shadow:0px 0px 20px #dddddd;
+}
+
+.form-control:focus {
+    border-color: #e0e0e0;
+    -webkit-box-shadow: 0px 0px 1px 2px rgba(32,129,196,1);
+    -moz-box-shadow: 0px 0px 1px 2px rgba(32,129,196,1);
+    box-shadow: 0px 0px 1px 2px rgba(32,129,196,1);
+    transition: 0.5s;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+}
+
+select {
+    font-family: 'Etelka-Text-Pro';
+    font-size: 16px;
+}
+.col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-default {
+    margin: 0;
+    margin-left: 130px;
+    color: white;
+    background: #2081c4;
+    border-color: #2081c4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    color: #FFFFFF;
+    background-color: #188ee0;
+    border-color: #188ee0;
+    transition: 0.5s;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: #FFFFFF;
+    background-color: #188ee0;
+    border-color: #188ee0;
+}
+
+.btn-default.active.focus, .btn-default.active:focus,
+.btn-default.active:hover, .btn-default:active.focus,
+.btn-default:active:focus, .btn-default:active:hover,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover {
+    background-color: #188ee0;
+    border-color: #188ee0;
+    color: #FFFFFF;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.submit {
+    padding-top: 25px;
+    padding-left: 0px;
+}
+
+.submit .btn-default {
+    width: 368px;
+    margin-left: 105px;
+    margin-bottom: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+.text-danger {
+    color: #ec2028;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+.post-footer span {
+    color: #222222;
+}
+
+.post-footer a {
+    color: #222222;
+    font-weight: 500;
+}
+
+.post-footer a:hover,
+.post-footer a:focus {
+    color: #8cc63f;
+    text-decoration: none;
+
+}
+
+@media(min-width:1201px) {
+    .form-main .row {
+        margin-left: 0px;
+    }
+}
+
+
+@media(max-width:1200px) {
+    .form-main .row {
+       margin-left: -60px;
+    }
+}
+
+@media(max-width:992px) {
+    .form-horizontal {
+        margin-left: 140px;
+    }
+
+    .information p {
+        padding-left: 20px;
+    }
+
+    .subscribe {
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:990px) {
+    .contact-adress {
+
+        text-align: center;
+        margin-top: -30px;
+
+    }
+
+    address {
+
+        margin-top: 0px;
+    }
+
+    .btn-fb {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: block;
+        margin-bottom: 10px;
+
+    }
+}
+
+.post-footer {
+    background-color: white;
+    max-height: 100px;
+}
+
+.post-footer p {
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    text-align: center;
+    color: #222222;
+}
+
+.footer-menu {
+    background-color: #2081c4;
+    min-height: 280px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+.footer-menu .contact-info-head {
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+.footer-menu p {
+    margin: 0 0 0;
+}
+
+.footer-menu .write-message {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.footer-menu .p {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.footer-menu .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.fb-box {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #2081c4;
+    border: 2px solid white;
+
+}
+
+.fb-box i {
+    color: white;
+    font-size: 35px;
+    padding-left: 12.5px;
+    padding-top: 7px;
+
+    }
+
+.subscribe {
+    border: 2px solid white;
+    width: 200px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.subscribe p {
+    font-size: 18px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.subscribe-mailer {
+    background-color: #2081c4;
+    min-height: 100px;
+}
+
+.subscribe-text {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+
+    padding-top: 20px;
+}
+
+.subscribe-btn {
+    background-color: white;
+    border-radius: 30px;
+    color: #2081c4;
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+
+.subscribe-mailer .col-md-4 {
+    margin-top: 35px;
+}
+
+.btn-danger:hover {
+    color: #2081c4;
+    background-color: #EEEEEE;
+    text-decoration: none;
+}
+
+
+.btn-danger.focus, .btn-danger:focus{
+    color: #2081c4;
+    background-color: #EEEEEE;
+    text-decoration: none;
+}
+.btn-danger.active.focus,
+.btn-danger.active:focus,
+.btn-danger.active:hover,
+.btn-danger:active.focus,
+.btn-danger:active:focus,
+.btn-danger:active:hover, .open>.dropdown-toggle.btn-danger.focus,
+.open>.dropdown-toggle.btn-danger:focus, .open>.dropdown-toggle.btn-danger:hover {
+    text-decoration: none;
+    color: #2081c4;
+    background-color: #EEEEEE;
+}
+
+.footer-menu a:focus,
+.footer-menu a:hover {
+    text-decoration: none;
+}
+
+.post-footer a:hover,
+.post-footer a:focus {
+    color: #8cc63f;
+    text-decoration: none;
+
+}
+
+.secure {
+    color: white;
+    font-weight: bold;
+}
+
+.footer-menu a:focus,
+.footer-menu a:hover {
+    color: #333333;
+}
+
+@media(max-width:1420px) {
+
+    .subscribe-mailer {
+        background-color: #2081c4;
+        min-height: 120px;
+    }
+
+}
+
+@media(max-width:992px) {
+
+    .subscribe-text {
+        text-align: center;
+    }
+    .subscribe-mailer .col-md-4 {
+        margin-top: 0px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .secure {
+        padding-left: 20px;
+    }
+}
+
+@media(max-width:727px) {
+    .form-horizontal {
+        margin-left: 115px;
+    }
+}
+
+@media(max-width:700px) {
+    .input-group .form-control {
+        width: 135%;
+    }
+
+    .frst {
+        padding-left: 80px;
+    }
+
+    .scnd {
+        padding-left: 40px;
+    }
+
+    .thrd {
+        padding-left: 72px;
+    }
+
+    .four {
+        padding-left: 68px;
+    }
+
+    textarea.form-control {
+        height: 150px;
+        width: 293px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 135px !important;
+        width: 293px;
+    }
+}
+
+@media(max-width:660px) {
+    .input-group .form-control {
+        width: 123%;
+    }
+
+    .frst {
+        padding-left: 60px;
+    }
+
+    .scnd {
+        padding-left: 20px;
+    }
+
+    .thrd {
+        padding-left: 52px;
+    }
+
+    .four {
+        padding-left: 48px;
+    }
+
+    textarea.form-control {
+        height: 150px;
+        width: 293px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 115px !important;
+        width: 293px;
+    }
+
+    .after-submit {
+        min-width: 450px;
+    }
+}
+
+@media(max-width:610px) {
+    .input-group .form-control {
+        width: 100%;
+    }
+
+    .frst {
+        padding-left: 40px;
+    }
+
+    .scnd {
+        padding-left: 0px;
+    }
+
+    .thrd {
+        padding-left: 32px;
+    }
+
+    .four {
+        padding-left: 28px;
+    }
+
+    textarea.form-control {
+        height: 150px;
+        width: 257px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 95px !important;
+        width: 257px;
+    }
+}
+
+@media(max-width:565px) {
+    .form-horizontal {
+        margin-left: 85px;
+    }
+    .input-group .form-control {
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width:500px) {
+    .form-horizontal {
+        margin-left: 75px;
+    }
+    .input-group .form-control {
+        width: 100%;
+    }
+
+    .after-submit {
+        min-width: 400px;
+    }
+
+
+}
+
+@media(max-width:475px) {
+    .form-horizontal {
+        margin-left: 65px;
+    }
+    .input-group .form-control {
+        width: 90%;
+    }
+
+    textarea.form-control {
+        height: 150px;
+        width: 230px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 95px !important;
+        width: 230px;
+    }
+
+
+}
+
+@media(max-width:430px) {
+    .form-horizontal {
+        margin-left: 55px;
+    }
+    .input-group .form-control {
+        width: 90%;
+    }
+
+    textarea.form-control {
+        height: 150px;
+        width: 230px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 95px !important;
+        width: 230px;
+    }
+
+    .after-submit {
+        min-width: 350px;
+    }
+
+
+}
+
+@media(max-width:360px) {
+    .form-horizontal {
+        margin-left: 55px;
+    }
+    .input-group .form-control {
+        width: 90%;
+    }
+
+    textarea.form-control {
+        height: 150px;
+        width: 230px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 95px !important;
+        width: 230px;
+    }
+
+    .after-submit {
+        min-width: 310px;
+    }
+
+
+}
+
+@media(max-width:357px) {
+    .form-horizontal {
+        margin-left: 55px;
+    }
+    .input-group .form-control {
+        width: 90%;
+    }
+
+    textarea.form-control {
+        height: 150px;
+        width: 225px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 95px !important;
+        width: 225px;
+    }
+
+
+}
+
+@media(max-width:357px) {
+
+    textarea.form-control {
+        height: 150px;
+        width: 220px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 95px !important;
+        width: 220px;
+    }
+
+
+}
+
+@media(max-width:345px) {
+
+    textarea.form-control {
+        height: 150px;
+        width: 215px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 95px !important;
+        width: 215px;
+    }
+
+
+}
+
+@media(max-width:340px) {
+
+    textarea.form-control {
+        height: 150px;
+        width: 210px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 95px !important;
+        width: 210px;
+    }
+
+
+}
+
+@media(max-width:335px) {
+
+    textarea.form-control {
+        height: 150px;
+        width: 205px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 95px !important;
+        width: 205px;
+    }
+
+
+}
+
+@media(max-width:330px) {
+
+    textarea.form-control {
+        height: 150px;
+        width: 200px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 95px !important;
+        width: 200px;
+    }
+
+
+}
+
+@media(max-width:325px) {
+
+    textarea.form-control {
+        height: 150px;
+        width: 195px !important;
+    }
+
+    .submit .btn-default {
+        margin-left: 95px !important;
+        width: 195px;
+    }
+
+
+}
+
+/*@media(max-width:600px) {
+    .input-group .form-control {
+        width: 140%;
+    }
+}
+@media(max-width:400px){
+
+    .modal-body h1 {
+        font-size: 20px;
+    }
+    .modal-body .label-danger {
+        font-size: 14px;
+    }
+
+    .modal-body .label-primary {
+        font-size: 14px;
+    }
+
+    .input-group .form-control {
+        width: 70%;
+    }
+
+}
+
+
+/* create by Fenomen M.A.
+   e-mail: kontakt@ceknima.sk
+   */

@@ -1,0 +1,260 @@
+.navbar-default {
+    font-family: 'Dosis', sans-serif;
+    background-color: #ffffff;
+    height: 95px;
+    border-color: #ffffff;
+}
+
+.navbar-default .container-fluid {
+    max-width: 1200px;
+}
+
+.navbar-nav {
+    background: white;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #333333;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #2081c4;
+}
+.navbar-nav .list-group {
+    margin-top: 25px;
+}
+
+.navbar-nav .fa-facebook {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.navbar-nav .facebook-button {
+    height: 95px;
+}
+
+.navbar-nav h1 {
+    line-height: 0;
+    margin-top: 25px;
+}
+
+.navbar-default a {
+    text-align: center;
+}
+
+/*.navbar-toggle {
+    margin-top: 28px;
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2081c4;
+    border: 2px;
+}*/
+
+.header-section {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/* ------------------------------- BODY -----------------------------------------*/
+
+.main-section .row {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.h1 {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+
+.p-main {
+    margin-top: 25px;
+}
+
+.p {
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* ----------------------------- FOOTER -----------------------------------------*/
+
+.footer-menu {
+    background-color: #2081c4;
+    min-height: 280px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    margin-top: 100px;
+
+}
+.footer-menu .contact-info-head {
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+.footer-menu p {
+    margin: 0 0 0;
+}
+
+.footer-menu .write-message {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.footer-menu .p {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.footer-menu .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.fb-box {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #2081c4;
+    border: 2px solid white;
+
+}
+
+.fb-box i {
+    color: white;
+    font-size: 35px;
+    padding-left: 12.5px;
+    padding-top: 7px;
+
+}
+
+.subscribe {
+    border: 2px solid white;
+    width: 200px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.subscribe p {
+    font-size: 18px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.subscribe-mailer {
+    background-color: #2081c4;
+    min-height: 100px;
+}
+
+.subscribe-text {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+
+    padding-top: 20px;
+}
+
+.subscribe-btn {
+    background-color: white;
+    border-radius: 30px;
+    color: #2081c4;
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+
+.subscribe-mailer .col-md-4 {
+    margin-top: 35px;
+}
+
+.btn-danger:hover {
+    color: #2081c4;
+    background-color: #EEEEEE;
+    text-decoration: none;
+}
+
+
+.btn-danger.focus, .btn-danger:focus{
+    color: #2081c4;
+    background-color: #EEEEEE;
+    text-decoration: none;
+}
+.btn-danger.active.focus,
+.btn-danger.active:focus,
+.btn-danger.active:hover,
+.btn-danger:active.focus,
+.btn-danger:active:focus,
+.btn-danger:active:hover, .open>.dropdown-toggle.btn-danger.focus,
+.open>.dropdown-toggle.btn-danger:focus, .open>.dropdown-toggle.btn-danger:hover {
+    text-decoration: none;
+    color: #2081c4;
+    background-color: #EEEEEE;
+}
+
+.footer-menu a:focus,
+.footer-menu a:hover {
+    text-decoration: none;
+}
+
+.post-footer {
+    background: #333333;
+}
+
+.post-footer p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.post-footer a {
+    color: #ffffff;
+}
+
+.post-footer a:hover,
+.post-footer a:focus {
+    color: #8cc63f;
+    text-decoration: none;
+
+}
+
+.secure {
+    color: white;
+    font-weight: bold;
+}
+
+.footer-menu a:focus,
+.footer-menu a:hover {
+    color: #333333;
+}
+
+@media(max-width:992px) {
+
+    .information p {
+        padding-left: 20px;
+    }
+
+    .information a {
+        padding-left: 20px;
+    }
+}
